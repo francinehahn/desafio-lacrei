@@ -106,7 +106,12 @@ export const HomeContainer = styled.div `
 
             img {
                 width: 100%;
-                height: 26.31rem;
+                @media screen and (min-width: 600px) {
+                    height: 26.31rem;                    
+                }
+                @media screen and (max-width: 600px) {
+                    height: 100%;                    
+                }
             }
         }
     }

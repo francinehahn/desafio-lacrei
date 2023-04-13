@@ -2,6 +2,7 @@ import { Header } from "../../components/Header/Header"
 import img from "../../assets/rafiki 2.png"
 import { useNavigate } from "react-router"
 import { HomeContainer } from "./style"
+import { Footer } from "../../components/Footer/Footer"
 
 export function HomePage () {
     const navigate = useNavigate()
@@ -24,6 +25,7 @@ export function HomePage () {
                     <img src={img} alt="Imagem de um profissional da saúde saindo de dentro de um celular"/>
                 </section>
             </HomeContainer>
+            <Footer page="home"/>
         </>
     )
 }

@@ -10,8 +10,10 @@ export const GlobalStyle = createGlobalStyle `
 
     :root {
         --lightgrey: #EEEEEE;
+        --mediumgrey: #515151;
         --darkgrey: #1F1F1F;
         --green: #018762;
+        --shadow-black: rgba(0, 0, 0, 0.25);
     }
 
     body {

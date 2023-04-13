@@ -6,7 +6,8 @@ import { Footer } from "../../components/Footer/Footer"
 
 export function HomePage () {
     const navigate = useNavigate()
-
+    document.title = "Home | Desafio Lacrei"
+    
     return (
         <>
             <Header page="home"/>

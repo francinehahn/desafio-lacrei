@@ -30,22 +30,6 @@ export const HomeContainer = styled.div `
                 gap: 1rem;
             }
 
-            h2 {
-                font-weight: 700;
-                color: var(--darkgrey);
-                letter-spacing: -1px;
-
-                @media screen and (min-width: 1040px) {
-                    font-size: 3rem;
-                    line-height: 4.06rem;
-                }
-                @media screen and (max-width: 1040px) {
-                    font-size: 2rem;
-                    line-height: 3rem;
-                    text-align: center;
-                }
-            }
-
             p {
                 font-size: 1.5rem;
                 color: var(--mediumgrey);
@@ -122,7 +106,7 @@ export const HomeContainer = styled.div `
 
             img {
                 width: 100%;
-                height: 100%;
+                height: 26.31rem;
             }
         }
     }
